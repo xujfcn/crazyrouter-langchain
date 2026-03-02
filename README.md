@@ -2,7 +2,7 @@
 
 > Use LangChain with 300+ AI models through Crazyrouter — Save 45% on API costs.
 
-[Crazyrouter](https://crazyrouter.com?ref=github) — One API key for all AI models.
+[Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github) — One API key for all AI models.
 
 ## 💰 Price Comparison
 
@@ -26,7 +26,7 @@ from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(
     model="claude-sonnet-4-20250514",
     api_key="sk-your-crazyrouter-key",
-    base_url="https://crazyrouter.com/v1"
+    base_url="https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1"
 )
 
 response = llm.invoke("What is an API gateway?")
@@ -63,7 +63,7 @@ from langchain.chains import RetrievalQA
 embeddings = OpenAIEmbeddings(
     model="text-embedding-3-small",
     api_key="sk-your-crazyrouter-key",
-    base_url="https://crazyrouter.com/v1"
+    base_url="https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1"
 )
 
 # Create vector store
@@ -96,13 +96,13 @@ result = executor.invoke({"input": "Search for AI API pricing"})
 
 ```python
 # GPT-4o
-gpt = ChatOpenAI(model="gpt-4o", api_key="sk-key", base_url="https://crazyrouter.com/v1")
+gpt = ChatOpenAI(model="gpt-4o", api_key="sk-key", base_url="https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1")
 
 # Claude Opus
-claude = ChatOpenAI(model="claude-opus-4-20250514", api_key="sk-key", base_url="https://crazyrouter.com/v1")
+claude = ChatOpenAI(model="claude-opus-4-20250514", api_key="sk-key", base_url="https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1")
 
 # Gemini
-gemini = ChatOpenAI(model="gemini-2.5-pro", api_key="sk-key", base_url="https://crazyrouter.com/v1")
+gemini = ChatOpenAI(model="gemini-2.5-pro", api_key="sk-key", base_url="https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1")
 
 # Same key, same base_url, different models!
 ```
@@ -115,7 +115,7 @@ import { ChatOpenAI } from "@langchain/openai";
 const llm = new ChatOpenAI({
   modelName: "claude-sonnet-4-20250514",
   openAIApiKey: "sk-your-crazyrouter-key",
-  configuration: { baseURL: "https://crazyrouter.com/v1" }
+  configuration: { baseURL: "https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community/v1" }
 });
 
 const response = await llm.invoke("Hello!");
@@ -133,7 +133,7 @@ A: Yes, function calling and tool use work perfectly.
 A: Yes, `text-embedding-3-small` and other embedding models are available.
 
 ## 🔗 Links
-- 🌐 [Crazyrouter](https://crazyrouter.com?ref=github)
+- 🌐 [Crazyrouter](https://crazyrouter.com?utm_source=github&utm_medium=github&utm_campaign=dev_community?ref=github)
 - 🦜 [LangChain](https://github.com/langchain-ai/langchain)
 - 💬 [Telegram](https://t.me/crzrouter)
 
